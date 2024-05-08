@@ -1,0 +1,91 @@
+# Built directories
+/docs
+
+# Ignore OS-Generated files
+## macOS
+._*
+.AppleDouble
+.DS_Store
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon
+
+## Windows
+*.cab
+*.msi
+*.msm
+*.msp
+$RECYCLE.BIN/
+ehthumbs.db
+Desktop.ini
+Thumbs.db
+
+## Linux
+*~
+
+# Node.js / npm / Yarn
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output directory
+## Test
+/testApp
+/coverage
+
+## Others
+/.rollup.cache
+/build
+/bundle
+/dist
+/out
+
+# Packages (optional)
+*.7z
+*.csv
+*.dat
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.seed
+*.so
+*.swo
+*.swp
+*.swn
+*.swm
+*.out
+*.pid
+
+# Build output files
+.eslintcache
+
+# Dependency lock files (Uncomment if you need to ignore lock files)
+#package-lock.json
+#pnpm-lock.yaml
+#yarn.lock
+
+# Environment variables
+.env.development.local
+.env.local
+.env.production.local
+.env.test.local
+
+# Cache, db, and log files (optional)
+.cache/
+.log/
+.tmp/
+*.cache
+*.log
+*.sql
+*.sqlite
+*.sqlite3

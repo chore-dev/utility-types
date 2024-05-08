@@ -1,0 +1,46 @@
+{
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "**/*.d.ts",
+    "**/*.ts",
+    "@types",
+    "types"
+  ],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationDir": "./types",
+    "declarationMap": false,
+    "emitDeclarationOnly": true,
+    "importHelpers": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "allowJs": false,
+    "checkJs": false,
+    "experimentalDecorators": true,
+    "lib": [
+      "ESNext"
+    ],
+    "target": "esnext",
+    "allowArbitraryExtensions": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "incremental": true,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true
+  },
+  "watchOptions": {},
+  "typeAcquisition": {}
+}

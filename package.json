@@ -1,0 +1,73 @@
+{
+  "name": "@chore-dev/utility-types",
+  "version": "0.0.1",
+  "description": "Collection of utility types",
+  "keywords": [
+    "interface",
+    "type",
+    "TypeScript",
+    "utility"
+  ],
+  "type": "module",
+  "main": "index.ts",
+  "types": "index.ts",
+  "files": [
+    "index.ts",
+    "src",
+    "!src/__tests__",
+    "!src/**/*.test.ts"
+  ],
+  "scripts": {
+    "doc:generate": "npx typedoc",
+    "prepare": "husky install",
+    "release": "release-it",
+    "test": "jest",
+    "// ESLint": "---------- ---------- ---------- ---------- ----------",
+    "eslint": "eslint './**/*.ts' -c .eslintrc --cache --color",
+    "eslint:fix": "yarn eslint --fix --quiet",
+    "// Prettier": "---------- ---------- ---------- ---------- ----------",
+    "prettier": "yarn prettier:base -c",
+    "prettier:base": "prettier './**/*.{cjs,ts,json}' --cache --config .prettierrc",
+    "prettier:fix": "yarn prettier:base -w",
+    "// Format": "---------- ---------- ---------- ---------- ----------",
+    "format": "yarn eslint; yarn prettier",
+    "format:fix": "yarn eslint:fix; yarn prettier:fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@release-it/conventional-changelog": "^7.0.1",
+    "@types/jest": "^29.5.12",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3",
+    "release-it": "^16.1.5",
+    "ts-jest": "^29.1.2",
+    "typedoc": "^0.25.13",
+    "typescript": "^5.2.2"
+  },
+  "author": "Chore Team",
+  "contributors": [
+    {
+      "name": "Issac Li",
+      "email": "issac.li.523@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/chore-dev/utility-types",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chore-dev/utility-types"
+  },
+  "bugs": {
+    "url": "https://github.com/chore-dev/utility-types/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "apache-2.0"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": [
+    "index.ts"
+  ],
+  "includeVersion": true,
+  "out": "docs",
+  "navigation": {
+    "includeCategories": true,
+    "includeFolders": true,
+    "includeGroups": false
+  },
+  "navigationLinks": {
+    "GitLab": "https://github.com/chore-dev/utility-types",
+    "NPM": "// TODO: Add NPM link"
+  },
+  "readme": "README.md"
+}
