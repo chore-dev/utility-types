@@ -1,6 +1,6 @@
 {
   "name": "@chore-dev/utility-types",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Collection of utility types",
   "keywords": [
     "interface",
