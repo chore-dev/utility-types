@@ -6,7 +6,9 @@
     "interface",
     "type",
     "TypeScript",
-    "utility"
+    "utility",
+    "utility-type",
+    "utility-types"
   ],
   "type": "module",
   "main": "index.ts",
