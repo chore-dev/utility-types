@@ -6,7 +6,7 @@ Collection of utility types
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Documentation](https://gtw-utility-types.vercel.app/)
+- [Documentation](https://chore-dev-utility-types.vercel.app/)
 
 ## Installation
 
@@ -47,4 +47,4 @@ type DeepType = DeepGetType<DeepObject, 'a.b.c.d'>; // string
 
 ## Documentation
 
-See [documentation](https://gtw-utility-types.vercel.app/) for more details.
+See [documentation](https://chore-dev-utility-types.vercel.app/) for more details.
