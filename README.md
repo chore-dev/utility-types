@@ -12,17 +12,17 @@ Collection of utility types
 
 ```bash
 # npm
-npm install --save-dev @chore/utility-types
+npm install --save-dev @chore-dev/utility-types
 ```
 
 ```bash
 # yarn
-yarn add -D @chore/utility-types
+yarn add -D @chore-dev/utility-types
 ```
 
 ```bash
 # pnpm
-pnpm add -D @chore/utility-types
+pnpm add -D @chore-dev/utility-types
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ pnpm add -D @chore/utility-types
 Using `DeepGetType` as an example:
 
 ```typescript
-import {DeepGetType} from '@chore/utility-types';
+import {DeepGetType} from '@chore-dev/utility-types';
 
 type DeepObject = {
   a: {
