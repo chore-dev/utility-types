@@ -1,0 +1,27 @@
+# Docs: https://prettier.io/docs/en/options.html
+# Some of the properties below are inherited from the root .editorconfig file
+
+arrowParens: avoid
+bracketSameLine: false
+bracketSpacing: true
+embeddedLanguageFormatting: auto
+# endOfLine: refer to end_of_line in .editorconfig file
+htmlWhitespaceSensitivity: css
+jsxSingleQuote: true
+# printWidth: refer to max_line_length in .editorconfig file
+proseWrap: preserve
+quoteProps: as-needed
+semi: true
+singleAttributePerLine: true
+singleQuote: true
+# tabWidth: refer to indent_size in .editorconfig file
+trailingComma: none
+# useTabs: refer to indent_style in .editorconfig file
+
+# Docs for overrides: https://prettier.io/docs/en/configuration.html#configuration-overrides
+overrides:
+  - files:
+      - '*.md'
+      - '*.mdx'
+    options:
+      proseWrap: always

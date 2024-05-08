@@ -1,0 +1,5 @@
+# Node.js / npm / Yarn
+node_modules/
+
+# Build output files
+.eslintcache
